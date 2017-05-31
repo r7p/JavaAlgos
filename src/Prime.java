@@ -1,11 +1,5 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.lang.reflect.Method;
-import java.util.HashSet;
-import java.util.Set;
-
 /**
- * Created by Raj on 4/28/2016.
+ * Algorithm to check if one or more non-consecutive (random sequence) is prime ot not.
  */
 public class Prime {
 
@@ -33,39 +27,5 @@ public class Prime {
 
     public static void main(String[] args) {
         new Prime().checkPrime(2,1,3,4,5, 10, 13, 15, 18, 17, 6, 309);
-//        try{
-//            BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-//            int n1=Integer.parseInt(br.readLine());
-//            int n2=Integer.parseInt(br.readLine());
-//            int n3=Integer.parseInt(br.readLine());
-//            int n4=Integer.parseInt(br.readLine());
-//            int n5=Integer.parseInt(br.readLine());
-//            Prime ob=new Prime();
-//            ob.checkPrime(n1);
-//            ob.checkPrime(n1,n2);
-//            ob.checkPrime(n1,n2,n3);
-//            ob.checkPrime(n1,n2,n3,n4,n5);
-//            Method[] methods=Prime.class.getDeclaredMethods();
-//            Set<String> set=new HashSet<>();
-//            boolean overload=false;
-//            for(int i=0;i<methods.length;i++)
-//            {
-//                if(set.contains(methods[i].getName()))
-//                {
-//                    overload=true;
-//                    break;
-//                }
-//                set.add(methods[i].getName());
-//
-//            }
-//            if(overload)
-//            {
-//                throw new Exception("Overloading not allowed");
-//            }
-//        }
-//        catch(Exception e)
-//        {
-//            System.out.println(e);
-//        }
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * Created by rajeshpatel on 5/30/17.
+ * Algorithm to find prime numbers from consecutive series of numbers, i.e. 1...n
  */
 public class PrimeSieve {
     void sieveOfEratosthenes(int n) {

@@ -18,34 +18,39 @@ public class DocHasWord {
 
     boolean hasWord(String doc, String s) {
 
-        char[] arDoc = doc.toLowerCase().toCharArray();
-        Map<Character, Integer> docOcurrence = new HashMap<>();
 
-        for (char aChar : arDoc) {
-            Integer thisOcurrence = 1;
-            if (docOcurrence.containsKey(aChar)) {
-                thisOcurrence = docOcurrence.get(aChar);
-                thisOcurrence++;
-            }
-            docOcurrence.put(aChar, thisOcurrence);
-        }
 
         char[] arS = s.toLowerCase().toCharArray();
+        Map<Character, Integer> wordOccurrence = new HashMap<>();
         for (char aChar : arS) {
-            if (!docOcurrence.containsKey(aChar)) {
-                return false;
-            } else {
-                Integer thisOcurrence = docOcurrence.get(aChar);
-                thisOcurrence--;
-                if (thisOcurrence <= 0) {
-                    docOcurrence.remove(aChar);
-                } else {
-                    docOcurrence.put(aChar, thisOcurrence);
+            Integer thisOccurrence = 1;
+            if (wordOccurrence.containsKey(aChar)) {
+                thisOccurrence = wordOccurrence.get(aChar);
+                thisOccurrence++;
+            }
+            wordOccurrence.put(aChar, thisOccurrence);
+        }
+
+        char[] arDoc = doc.toLowerCase().toCharArray();
+        int wordCharCount = wordOccurrence.size();
+
+        for (char aChar : arDoc) {
+            Integer thisOccurrence = wordOccurrence.get(aChar);
+            if (thisOccurrence != null) {
+                thisOccurrence--;
+                if (thisOccurrence >= 0) {
+                    wordOccurrence.put(aChar, thisOccurrence);
+                }
+                if (thisOccurrence == 0) {
+                    wordCharCount--;
+                    if (wordCharCount == 0) {
+                        return true;
+                    }
                 }
             }
         }
 
-        return true;
+        return false;
     }
 
     public static void main(String[] args) {
