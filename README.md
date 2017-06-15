@@ -39,7 +39,7 @@ Firefox Learn tab
 
 [CleanCode Videos](https://cleancoders.com/videos/java-case-study)
 
-[Coursera Algo I: rajp75@gmail.com rajesh](https://www.coursera.org/learn/algorithms-part1)
+[Coursera Algo I](https://www.coursera.org/learn/algorithms-part1)
 
 [Percolation](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html)
 
