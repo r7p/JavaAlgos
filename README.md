@@ -48,3 +48,11 @@ Firefox Learn tab
 [Percolation](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html)
 
 [Priceton U Algo](http://algs4.cs.princeton.edu/12oop/)
+
+Java
+----
+[Deadlock](http://www.javaworld.com/article/2075692/java-concurrency/avoid-synchronization-deadlocks.html)
+
+[ConcurrentHashmap](https://www.ibm.com/developerworks/java/library/j-jtp08223/index.html)
+
+[Bitwise tricks 1](https://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)

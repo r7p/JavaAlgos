@@ -5,6 +5,13 @@ package RemedyPartners;
  */
 public class BetterLazySingleton {
 
+    /**
+     * private constructor
+     */
+    private BetterLazySingleton() {
+
+    }
+
     private static class ResourceHolder {
         public static BetterLazySingleton resource = new BetterLazySingleton();
     }
