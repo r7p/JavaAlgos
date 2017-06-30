@@ -10,6 +10,8 @@
 
 [Algos tutorials from Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/)
 
+[Grid weighted path](http://www.sanfoundry.com/java-program-find-shortest-path-between-two-vertices-using-dijkstras-algorithm/)
+
 
 
 Firefox Work Tab
