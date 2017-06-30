@@ -4,6 +4,8 @@
 
 [A* algorithm](http://www.redblobgames.com/pathfinding/a-star/introduction.html)
 
+[A* intro](https://www.raywenderlich.com/4946/introduction-to-a-pathfinding)
+
 [Algo visualization](https://www.educative.io/collection/5642554087309312/5679846214598656)
 
 [System Design](https://www.educative.io/collection/5668639101419520/5649050225344512)
