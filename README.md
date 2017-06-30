@@ -4,6 +4,8 @@
 
 [A* algorithm](http://www.redblobgames.com/pathfinding/a-star/introduction.html)
 
+[Grid Weighted path](http://www.sanfoundry.com/java-program-find-shortest-path-between-two-vertices-using-dijkstras-algorithm/)
+
 
 
 
