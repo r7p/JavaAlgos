@@ -10,19 +10,34 @@ import java.util.stream.Stream;
  */
 public class Test {
     public static void main(String[] args) {
+
+        intArrayResize();
+
+    }
+
+    static void intArrayResize() {
+        int[] a = new int[2];
+        a[0] = 1;
+        a[1] = 2;
+
+        System.out.println(Arrays.toString(a));
+
+        a = new int[4];
+        System.out.println(Arrays.toString(a));
+    }
+
+    static void testStream() {
         List<Integer> alist = Arrays.asList(10,40,20,60,80,0,80,30,40);
         ArrayList<Integer> collect = alist.stream().filter(value -> value > 18)
-                .sorted().sequential().map(Integer::new).distinct().collect(Collectors.toCollection(ArrayList::new));
+            .sorted().sequential().map(Integer::new).distinct().collect(Collectors.toCollection(ArrayList::new));
         System.out.println(collect);
         ArrayList<Integer> collect1 = Arrays.asList(1, 2, 3, 4, 5).stream().skip(2).collect(Collectors.toCollection(ArrayList::new));
         System.out.println(collect1);
         Arrays.asList("M", "O", "B").parallelStream()
-        .filter(f -> {
-            System.out.println("FRU" + f);
-            return false;
-        }).forEach(fruit -> {});
-
-
+            .filter(f -> {
+                System.out.println("FRU" + f);
+                return false;
+            }).forEach(fruit -> {});
     }
 
 //    static void printMyName(String name) {

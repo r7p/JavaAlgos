@@ -4,8 +4,11 @@
 
 [A* algorithm](http://www.redblobgames.com/pathfinding/a-star/introduction.html)
 
-[Grid Weighted path](http://www.sanfoundry.com/java-program-find-shortest-path-between-two-vertices-using-dijkstras-algorithm/)
+[Algo visualization](https://www.educative.io/collection/5642554087309312/5679846214598656)
 
+[System Design](https://www.educative.io/collection/5668639101419520/5649050225344512)
+
+[Algos tutorials from Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/)
 
 
 
@@ -45,3 +48,11 @@ Firefox Learn tab
 [Percolation](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html)
 
 [Priceton U Algo](http://algs4.cs.princeton.edu/12oop/)
+
+Java
+----
+[Deadlock](http://www.javaworld.com/article/2075692/java-concurrency/avoid-synchronization-deadlocks.html)
+
+[ConcurrentHashmap](https://www.ibm.com/developerworks/java/library/j-jtp08223/index.html)
+
+[Bitwise tricks 1](https://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)
