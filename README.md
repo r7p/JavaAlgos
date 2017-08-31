@@ -53,6 +53,8 @@ Firefox Learn tab
 
 [Priceton U Algo](http://algs4.cs.princeton.edu/12oop/)
 
+[Interview](https://medium.com/garbage-collection/managed-by-qs-engineering-interview-process-3806377813bf)
+
 Java
 ----
 [Deadlock](http://www.javaworld.com/article/2075692/java-concurrency/avoid-synchronization-deadlocks.html)

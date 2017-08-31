@@ -15,6 +15,28 @@ public class SortedArrayToBST {
             this.right = null;
             this.data = d;
         }
+
+        @Override public boolean equals(Object o) {
+            if (this == o)
+                return true;
+            if (o == null || getClass() != o.getClass())
+                return false;
+
+            Node node = (Node) o;
+
+            if (data != node.data)
+                return false;
+            if (left != null ? !left.equals(node.left) : node.left != null)
+                return false;
+            return right != null ? right.equals(node.right) : node.right == null;
+        }
+
+        @Override public int hashCode() {
+            int result = left != null ? left.hashCode() : 0;
+            result = 31 * result + (right != null ? right.hashCode() : 0);
+            result = 31 * result + data;
+            return result;
+        }
     }
 
     Node sortedArrayToBST(int arr[], int start, int end) {
