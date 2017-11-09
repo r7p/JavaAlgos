@@ -74,3 +74,5 @@ Distributed Computing
 [Why Vector clocks are easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
 
 [Why Vector clocks are hard](http://basho.com/posts/technical/why-vector-clocks-are-hard/)
+
+[Why cassandra doesn't need Vector clock](https://www.datastax.com/dev/blog/why-cassandra-doesnt-need-vector-clocks)
