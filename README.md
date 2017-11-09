@@ -70,5 +70,7 @@ Functional programming
 Distributed Computing
 -------------------
 [There is no Now](https://queue.acm.org/detail.cfm?id=2745385)
+
 [Why Vector clocks are easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
+
 [Why Vector clocks are hard](http://basho.com/posts/technical/why-vector-clocks-are-hard/)
