@@ -62,3 +62,13 @@ Java
 [ConcurrentHashmap](https://www.ibm.com/developerworks/java/library/j-jtp08223/index.html)
 
 [Bitwise tricks 1](https://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)
+
+Functional programming
+----
+[Functor and Monad](https://dzone.com/articles/functor-and-monad-examples-in-plain-java)
+
+Distributed Computing
+-------------------
+[There is no Now](https://queue.acm.org/detail.cfm?id=2745385)
+[Why Vector clocks are easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
+[Why Vector clocks are hard](http://basho.com/posts/technical/why-vector-clocks-are-hard/)
