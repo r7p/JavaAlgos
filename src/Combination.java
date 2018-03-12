@@ -20,12 +20,24 @@ public class Combination {
     }
 
     private static void comb1(String prefix, String s) {
-        if (s.length() > 0) {
+        int len = s.length();
+        if (len == 0) {
+            System.out.println(prefix);
+        } else {
+            for(int i=0; i < len; i++) {
+                String newPrefix = prefix + s.charAt(i);
+                String newString = s.substring(0, i) + s.substring(i+1);
+                String soutString = String.format("newPrefix:%s , newString:%s", newPrefix, newString);
+                //System.out.println(soutString);
+                comb1(newPrefix, newString);
+            }
+        }
+/*        if (s.length() > 0) {
             System.out.println(prefix + s.charAt(0));
            // comb1(prefix + s.charAt(0), s.substring(1));
             comb1(prefix,               s.substring(1));
             comb1(prefix + s.charAt(0), s.substring(1));
-        }
+        }*/
     }
 
 
