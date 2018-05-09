@@ -14,6 +14,7 @@
 
 [Grid weighted path](http://www.sanfoundry.com/java-program-find-shortest-path-between-two-vertices-using-dijkstras-algorithm/)
 
+[Dining Philosopher's problem](https://codereview.stackexchange.com/questions/25989/dining-philosophers-problem-solution-with-java-reentrantlock)
 
 
 Firefox Work Tab
