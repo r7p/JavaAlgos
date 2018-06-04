@@ -27,7 +27,7 @@ public class MergeTwoSortedArrays {
 
     private static void mergeInPlace(int[] a, int[] b) {
         int     n = b.length,
-                m = a.length - n, //LAST elements in first array, excluding unoccupied elements.  This is where comparision starts
+                m = a.length - n, //LAST elements in first array, excluding unoccupied elements.  This is where comparison starts
                 k = a.length - 1;
 
         while (m > 0 && n > 0) {

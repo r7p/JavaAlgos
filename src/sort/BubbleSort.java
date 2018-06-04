@@ -3,7 +3,7 @@ package sort;
 import java.util.Arrays;
 
 /**
- * O(N^2) comparisions and O(N^2) swaps
+ * O(N^2) comparisons and O(N^2) swaps
  */
 public class BubbleSort {
     public static void main(String[] args) {

@@ -20,6 +20,7 @@ public class Combination {
     }
 
     private static void comb1(String prefix, String s) {
+        //System.out.println("comb1(" + prefix + ", " + s + ")");
         int len = s.length();
         if (len == 0) {
             System.out.println(prefix);
