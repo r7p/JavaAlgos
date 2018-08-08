@@ -64,6 +64,8 @@ Java
 
 [Bitwise tricks 1](https://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/)
 
+[Some basics](http://www.javaperformancetuning.com/news/newtips189.shtml)
+
 Functional programming
 ----
 [Functor and Monad](https://dzone.com/articles/functor-and-monad-examples-in-plain-java)
