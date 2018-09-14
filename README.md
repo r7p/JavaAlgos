@@ -72,6 +72,8 @@ Functional programming
 
 Distributed Computing
 -------------------
+[Concurrency model, see chapter 5](http://berb.github.io/diploma-thesis/original/index.html)
+
 [There is no Now](https://queue.acm.org/detail.cfm?id=2745385)
 
 [Why Vector clocks are easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/)
