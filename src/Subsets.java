@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -30,9 +32,31 @@ public class Subsets {
         return result;
     }
 
+    private static void subsetRecursive(LinkedList<Integer> set, List<Integer> chosen) {
+        if (set.isEmpty()) {
+            //print chosen
+            System.out.println(chosen);
+        } else {
+            Integer first = set.remove(0);
+
+            //get set with first element chosen/added
+            chosen.add(first);
+            subsetRecursive(set, chosen);
+
+            //get set with first element removed
+            chosen.remove(chosen.size() - 1);
+            subsetRecursive(set, chosen);
+
+            //unchoose
+            set.add(0, first);
+        }
+    }
+
     public static void main(String[] args) {
         int[] a = {1, 2, 3};
         List<List<Integer>> subsets = subsetMethod(a);
         System.out.println(subsets);
+
+        subsetRecursive(new LinkedList<>(Arrays.asList(1, 2, 3)), new ArrayList<>());
     }
 }
