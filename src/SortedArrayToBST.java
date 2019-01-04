@@ -86,10 +86,10 @@ public class SortedArrayToBST {
     }
 
     /**
-     * Left, Root, Right
+     * Left (last leaf node on left), Parent, Right
      *
      * Prints BST in sorted order (Ascending)
-     *
+     * This is NOT BFS!  This goes to left most last leaf node, then print parent, then parent's right.
      * @param node
      */
     void inOrder(Node node) {
