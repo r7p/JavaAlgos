@@ -16,6 +16,8 @@
 
 [Dining Philosopher's problem](https://codereview.stackexchange.com/questions/25989/dining-philosophers-problem-solution-with-java-reentrantlock)
 
+[BST find sum of two node](https://www.algorithmsandme.com/two-numbersnodes-with-given-sum-in-binary-search-tree-2sum-problem/)
+
 
 Firefox Work Tab
 ----------------
