@@ -18,6 +18,8 @@
 
 [BST find sum of two node](https://www.algorithmsandme.com/two-numbersnodes-with-given-sum-in-binary-search-tree-2sum-problem/)
 
+[More graph data structure and algo](http://www.toves.org/books/data/ch08-pq/index.html)
+
 
 Firefox Work Tab
 ----------------
