@@ -70,6 +70,8 @@ Java
 
 [Some basics](http://www.javaperformancetuning.com/news/newtips189.shtml)
 
+[Write your own Executor](https://caffinc.github.io/2016/03/simple-threadpool/)
+
 Functional programming
 ----
 [Functor and Monad](https://dzone.com/articles/functor-and-monad-examples-in-plain-java)
