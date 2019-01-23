@@ -20,6 +20,10 @@
 
 [More graph data structure and algo](http://www.toves.org/books/data/ch08-pq/index.html)
 
+[Sparse table 1](https://cp-algorithms.com/data_structures/sparse-table.html)
+
+[Sparse table, Range Minimum, LCA](https://www.topcoder.com/community/competitive-programming/tutorials/range-minimum-query-and-lowest-common-ancestor/)
+
 
 Firefox Work Tab
 ----------------
