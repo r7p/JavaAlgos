@@ -24,6 +24,8 @@
 
 [Sparse table, Range Minimum, LCA](https://www.topcoder.com/community/competitive-programming/tutorials/range-minimum-query-and-lowest-common-ancestor/)
 
+[Excercise](http://penguin.ewu.edu/class/class/cscd300/Topic/ExpressionTree/index.html)
+
 
 Firefox Work Tab
 ----------------
