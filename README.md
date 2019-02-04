@@ -28,6 +28,8 @@
 
 [Basics](https://cs.meta.stackexchange.com/questions/599/reference-answers-to-frequently-asked-questions)
 
+[Patient sort](http://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence-2x2.pdf)
+
 Firefox Work Tab
 ----------------
 
