@@ -26,6 +26,7 @@
 
 [Excercise](http://penguin.ewu.edu/class/class/cscd300/Topic/ExpressionTree/index.html)
 
+[Basics](https://cs.meta.stackexchange.com/questions/599/reference-answers-to-frequently-asked-questions)
 
 Firefox Work Tab
 ----------------
