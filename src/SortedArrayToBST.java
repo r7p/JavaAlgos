@@ -15,6 +15,31 @@ public class SortedArrayToBST {
             this.right = null;
             this.data = d;
         }
+        
+        public void print() {
+            printHelper("");
+        }
+
+        private void printHelper(String indent) {
+            System.out.println(indent + this.data);
+            if (this.left != null) {
+                System.out.println(indent + indent + "--L-- "+ this.left);
+            }
+            if (this.right != null) {
+                System.out.println(indent + indent + "--R-- "+ this.right);
+            }
+            if (this.left != null) {
+                this.left.printHelper(indent + "  ");
+            }
+            if (this.right != null) {
+                this.right.printHelper(indent + "  ");
+            }
+
+        }
+
+        @Override public String toString() {
+            return String.valueOf(data);
+        }
 
         @Override public boolean equals(Object o) {
             if (this == o)
@@ -54,7 +79,7 @@ public class SortedArrayToBST {
 
     /**
      *
-     * Root, Left, Right
+     * Root, Left, Left all the way to down.  then its parent, Right
      *
      * @param node
      */
