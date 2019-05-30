@@ -71,6 +71,8 @@ Firefox Learn tab
 
 [Cache-Oblivious Data Structure](https://rcoh.me/posts/cache-oblivious-datastructures/)
 
+[MIT Data Structure Lectures](https://courses.csail.mit.edu/6.851/fall17/)
+
 Java
 ----
 [Deadlock](http://www.javaworld.com/article/2075692/java-concurrency/avoid-synchronization-deadlocks.html)
