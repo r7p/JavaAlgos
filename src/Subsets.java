@@ -8,6 +8,8 @@ import java.util.List;
  *
  * Given a set of distinct integers, nums, return all possible subsetMethod (the power set).
  *
+ * Time complexity O(2^n)
+ *
  */
 public class Subsets {
 
@@ -56,6 +58,10 @@ public class Subsets {
         // add copy of tmpList
         result.add(new ArrayList<>(tmpList));
         for (int i = index; i < nums.length; i++) {
+            // to ignore duplicates, use following if
+            if (i != index && nums[i] == nums[i -1]) {
+                continue;
+            }
             tmpList.add(nums[i]);
             backtrack(result, tmpList, nums, i + 1);
             tmpList.removeLast();
@@ -63,13 +69,13 @@ public class Subsets {
     }
 
     public static void main(String[] args) {
-        int[] a = {1, 2, 3};
+        int[] a = {1, 2, 3, 4};
         List<List<Integer>> subsets = subsetMethod(a);
         System.out.println(subsets);
         List<List<Integer>> results = new ArrayList<>();
         backtrack(results, new LinkedList<>(), a, 0);
         System.out.println(results);
 
-        subsetRecursive(new LinkedList<>(Arrays.asList(1, 2, 3)), new ArrayList<>());
+//        subsetRecursive(new LinkedList<>(Arrays.asList(1, 2, 3)), new ArrayList<>());
     }
 }

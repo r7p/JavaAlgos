@@ -44,6 +44,6 @@ public class ShiftLinkedList {
         n4.next = n5;
         n5.next = n6;
         n1.printList();
-        shift(n1, 7);
+        shift(n1, 2);
     }
 }

@@ -6,6 +6,7 @@ public class RainfallWall {
 
         int left = 0;
         int right = walls.length - 1;
+
         int leftMax = 0;
         int rightMax = 0;
         int leftPool = 0;

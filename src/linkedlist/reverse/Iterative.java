@@ -8,7 +8,7 @@ import linkedlist.LinkedNode;
 public class Iterative {
 
     public void reverseList(LinkedNode head) {
-        LinkedNode curNode = head, prevNode = null, nextNode = null;
+        LinkedNode curNode = head, prevNode = null;
 
         while (curNode != null) {
             LinkedNode tmp = curNode.next;
