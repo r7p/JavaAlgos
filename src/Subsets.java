@@ -20,7 +20,7 @@ public class Subsets {
         for(int n : nums){
             //for each number in a set, iterate over all subsets created so far
             int size = result.size();
-            for(int i=0; i<size; i++){
+            for(int i = 0; i < size; i++){
                 //make copy of this subset
                 List<Integer> subset = new ArrayList<>(result.get(i));
                 //add current number to it
@@ -52,10 +52,23 @@ public class Subsets {
         }
     }
 
+    static void backtrack(List<List<Integer>> result, LinkedList<Integer> tmpList, int[] nums, int index) {
+        // add copy of tmpList
+        result.add(new ArrayList<>(tmpList));
+        for (int i = index; i < nums.length; i++) {
+            tmpList.add(nums[i]);
+            backtrack(result, tmpList, nums, i + 1);
+            tmpList.removeLast();
+        }
+    }
+
     public static void main(String[] args) {
         int[] a = {1, 2, 3};
         List<List<Integer>> subsets = subsetMethod(a);
         System.out.println(subsets);
+        List<List<Integer>> results = new ArrayList<>();
+        backtrack(results, new LinkedList<>(), a, 0);
+        System.out.println(results);
 
         subsetRecursive(new LinkedList<>(Arrays.asList(1, 2, 3)), new ArrayList<>());
     }
